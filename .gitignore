@@ -4,9 +4,12 @@
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+wp-content/mu-plugins/
+wp-content/plugins/
+wp-content/themes/
+
+kuteshop
+!kuteshop-child
 
 # ignore these plugins
 wp-content/plugins/hello.php
@@ -21,3 +24,4 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+.DS_Store
